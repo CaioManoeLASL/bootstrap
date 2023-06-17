@@ -1,0 +1,47 @@
+
+.navbar{
+    background-color: gold !important;
+}
+
+#banners .carousel-item{
+    height: calc(100vh - 56px);
+}
+
+#banners .carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000075;
+}
+
+#banners .carousel-caption{
+    right: 0;
+    top: 37%;
+    text-align: left;
+}
+
+#sobre{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#sobre .px-5{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+#servicos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#servicos img{
+    display: block;
+    width: 70%;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
